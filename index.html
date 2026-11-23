@@ -26,7 +26,17 @@ li:before{content:"";position:absolute;left:4px;top:11px;width:9px;height:9px;bo
 .card{background:linear-gradient(180deg,#0e2237,#0a1928);border:1px solid var(--line);border-radius:16px;padding:8px 26px 14px;margin:34px 0}
 footer{border-top:1px solid var(--line);margin-top:44px;padding:28px 0 48px;font-size:13px;color:#6f8399}
 footer a{color:#8ea2b6}
-</style></head><body>
+</style><!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','978181105021562');
+fbq('track','PageView');
+fbq('track','ViewContent',{content_name:'Free MMI Guide'});
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a.btn');if(a){fbq('track','Lead',{content_name:'Free MMI Guide download'});}});
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=978181105021562&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel -->
+</head><body>
 <div class="wrap">
 <div class="top">MMI READINESS <span>LAB</span></div>
 <section class="hero">
